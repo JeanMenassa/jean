@@ -1,0 +1,31 @@
+body {
+   background-color:rgb(233, 204, 146);
+   font-size: 100%;
+}
+form {
+  background : grey;
+  width: 40%;
+  position: center;
+}
+h1 {
+   color: rgb(12, 6, 68);
+}
+input[type=button], input[type=submit], input[type=reset] {
+   background-color: #aa041d;
+   border: #5a1509;
+   color: white;
+   padding: 50px 80px;
+   margin: 7px 4px;
+   cursor: pointer;
+ }
+input {
+   border: #5a1509;
+   border-bottom: 1px solid rgb(0, 0, 0);
+   width: 90%;
+   padding: 14px 23px;
+   margin: 9px 2px;
+   box-sizing: border-box;
+ }
+input[type=text]:focus {
+   background-color: rgb(195, 228, 239);
+ }
